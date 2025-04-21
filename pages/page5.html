@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>WhereShrek?</title>
+        <style>
+            body {
+                background: linear-gradient(rgb(27, 4, 158),rgb(4, 158, 25));
+            }
+            
+            body img:first-of-type{
+                border: 5px outset rgb(255, 60, 60); 
+                color: white;
+            }
+
+            #fart{
+                display: none; /* Hide the elements initially */
+            }
+
+            #tigga{
+                display: none; 
+            }
+
+            img:first-of-type:hover ~ #fart{
+                display: block; /* Show the elements when the first image is hovered */
+            }
+
+            img:first-of-type:hover~#tigga{
+                display: block;
+            }
+
+            img:first-of-type:hover~#A1{
+                display: none;
+            }
+
+        </style>
+    </head>
+    <body>
+
+        <img 
+            src="/assets/shrek.jpg" 
+            height="250px"
+            style="display:inline-flex"
+        >
+        <p id="A1"style="color:white; position:absolute; right:200px ">Can you find the shrek?</p>
+        <p id="A1"style="color:white; position:absolute; right:20px; bottom:20px; ">Can you find the shrek?</p>
+        <p id="A1"style="color:greenyellow; position:absolute; font-size:100px;right:100px; bottom:20px; ">Can you find the shrek?</p>
+
+        <p id="A1"
+        style="color:white; position:absolute; font-size: 200px; right:20px; bottom:20px; ">Can you find the shrek?</p>
+
+        <p id="tigga" style="color: white; font-size: 200px;">SHREK !!</p>
+ 
+
+        <img 
+            id="fart"
+            src="https://pngimg.com/d/aim_PNG24.png"
+            height="200px"
+            style="position: absolute; top:10px;"
+        >
+
+    </body>
+</html>

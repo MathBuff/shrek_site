@@ -1,0 +1,26 @@
+body{
+    background-color: black;
+    background-image: url("https://i.pinimg.com/originals/4a/e0/0b/4ae00b0755455f09490ece6332f40187.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.darkBackPanel{
+    background-color: hsla(0,0%,0%,0.85);
+}
+
+h1{
+    color:tomato;
+    background-repeat: repeat-y;
+    background-attachment:local;
+    background-color: hsla(0,0%,0%,0.85);
+}
+p,ol{
+    color:white;
+    background-color: hsla(0,0%,0%,0.85);
+
+
+}
+a{
+    color: aqua;
+}

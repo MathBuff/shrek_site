@@ -1,0 +1,25 @@
+body{
+    background-color:rgb(0, 0, 0);
+    color:white;
+}
+p{
+    background-color: rgb(0, 0, 0);
+    position:absolute;
+    top:50vh;
+    left:45vw;
+    font-size: large;
+}
+
+h1{
+    color:black;
+}
+
+p:hover{
+    box-shadow: 5px 5px 5px rgb(255, 0, 0);
+    
+}
+
+p:hover~h1{
+    color:rgb(255, 0, 0);
+    
+}

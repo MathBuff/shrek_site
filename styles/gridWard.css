@@ -1,0 +1,40 @@
+body{
+    background-color: black;
+    background-image: url("https://images4.alphacoders.com/134/1345821.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.darkBackPanel{
+    background-color: hsla(0,0%,0%,0.85);
+}
+
+h1{
+    color:tomato;
+    background-repeat: repeat-y;
+    background-attachment:local;
+    background-color: hsla(0,0%,0%,0.85);
+}
+
+p,ol,table,thead,tbody,tfoot,div,tr{
+    color:white;
+    background-color: hsla(0,0%,0%,0.4);
+
+
+}
+a{
+    color: aqua;
+}
+
+h1{
+    margin-bottom: 4px;
+}
+
+/*Tables*/
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+  }
+  th, td {
+    padding: 15px;
+  }
